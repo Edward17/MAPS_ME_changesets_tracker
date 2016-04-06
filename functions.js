@@ -12,7 +12,8 @@ function init() {
     var bg_layer = L.tileLayer(
         'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {
-            maxZoom: 19
+            maxZoom: 19,
+            attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, under ODbL | Tiles under <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>'
         }
     );
     map.addLayer(bg_layer);
